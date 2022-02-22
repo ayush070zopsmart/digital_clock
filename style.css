@@ -1,0 +1,30 @@
+* {
+    background-color: black;
+    color: white;
+    font-size: 75px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.clock {
+    display: flex;
+}
+
+.hour {
+    color: #E9333C;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0.0;
+    }
+}
+
+.blink {
+    animation: blink 1s step-start 0s infinite;
+}
